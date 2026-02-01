@@ -71,7 +71,7 @@
         500.000000
         500.000000
       </lodDistances>
-      <minSeatHeight value="0.832" />
+      <minSeatHeight value="0.844" />
       <identicalModelSpawnDistance value="40" />
       <maxNumOfSameColor value="1" />
       <defaultBodyHealth value="1000.000000" />
@@ -82,7 +82,7 @@
       <frequency value="35" />
       <swankness>SWANKNESS_3</swankness>
       <maxNum value="5" />
-      <flags>FLAG_AVERAGE_CAR FLAG_POOR_CAR FLAG_HAS_INTERIOR_EXTRAS</flags>
+      <flags>FLAG_EXTRAS_STRONG FLAG_AVERAGE_CAR FLAG_EXTRAS_REQUIRE FLAG_CAN_HAVE_NEONS FLAG_INCREASE_CAMBER_WITH_SUSPENSION_MOD FLAG_HAS_TWO_BONNET_BONES</flags>
       <type>VEHICLE_TYPE_CAR</type>
       <plateType>VPT_BACK_PLATES</plateType>
       <dashboardType>VDT_BANSHEE</dashboardType>
@@ -111,7 +111,10 @@
 	  <firstPersonDrivebyData>
         <Item>STD_SULTANRS_FRONT_LEFT</Item>
         <Item>STD_SULTANRS_FRONT_RIGHT</Item>
+        <Item>STD_SULTANRS_REAR_LEFT</Item>
+        <Item>STD_SULTANRS_REAR_RIGHT</Item>
       </firstPersonDrivebyData>
+      <numSeatsOverride value="2" />
     </Item>
   </InitDatas>
   <txdRelationships>
